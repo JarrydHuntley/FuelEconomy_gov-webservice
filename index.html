@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>ga$ MODIFIED</title>
+    <!--Original project credit goes to: https://github.com/jakeherold/ajj -->
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js" integrity="sha256-8WqyJLuWKRBVhxXIL1jBDD7SDxU936oZkCnxQbWwJVw=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--***********user input**************-->
+    <section class="fullWidth center carSelection">
+        <h2 class="responsiveHeadline redOrangeText">Please select:</h2>
+        <select class="fullWidth mobileDrop carYear">
+            <option>Year</option>
+        </select>
+        <select class="fullWidth mobileDrop carMake">
+            <option>Make</option>
+        </select>
+        <select class="fullWidth mobileDrop carModel">
+            <option>Model</option>
+        </select>
+        <select class="fullWidth mobileDrop carVersion"></select>
+        <h2 class="errorVehicle redOrangeText"></h2>
+
+        <br/>
+        <button type="button" >Calculate CO2</button>
+    </section>
+    <p id="output7">
+
+    </p>
+
+    <script src="vehicleRequest.js"></script>
+
+</body>
+
+</html>
